@@ -1,5 +1,5 @@
 # Mapping
-## AUTOMATED PROCESS
+
 The project aims to find out whether in a given list of spare parts, those parts are already registered in the system.
 
 ## Table of Contents
