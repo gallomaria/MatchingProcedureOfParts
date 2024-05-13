@@ -25,8 +25,8 @@ entity = ''
 input_lang = ''
 
 # File to read
-folder_path = 'C:/Users/mgallo/PythonScript/DescriptionMatching/'     # Update this path to your folder
-file_to_translate = 'KES Parts Inventory.csv'                         # File with columns: 'ID', 'Material', 'Material Description'  
+folder_path = ''                                # Update this path to your folder
+file_to_translate = ''                          # File with columns: 'ID', 'Material', 'Material Description'  
 
 # File to write 
 file_translated = 'KES Parts Inventory_EN.csv'

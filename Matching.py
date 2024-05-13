@@ -28,9 +28,9 @@ entity = ''
 n_chunk = 1                                                         
 
 # File to read
-folder_path = 'C:/Users/mgallo/PythonScript/DescriptionMatching/'   # Update this path to your folder
-file_to_match = 'KES Parts Inventory_EN.csv'                        # File with columns: 'ID', 'Productidentifier', 'Item Description'
-full_invetory = 'Spare part & PIR Full list 18042024.csv'           # File with columns: 'Mfr Part Number', 'Supplier Mat. No.', 'Material Description', 'Material', 'Base Unit of Measure'                              
+folder_path = ''                        # Update this path to your folder
+file_to_match = ''                      # File with columns: 'ID', 'Productidentifier', 'Item Description'
+full_invetory = ''                      # File with columns: 'Mfr Part Number', 'Supplier Mat. No.', 'Material Description', 'Material', 'Base Unit of Measure'                              
 
 # File to write
 match_on_Mfr_Part_Number = 'match_on_Mfr_Part_No'
