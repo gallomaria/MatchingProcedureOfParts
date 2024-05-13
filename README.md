@@ -25,7 +25,7 @@ The inventory of spare parts is received from an external entity, which includes
 When the description of the parts is not in English, a translation procedure is required. This is accomplished through an API connection to DeepL, following data preparation, which involves string cleaning.
 
 ### Matching
-The Matching procedure begins with an initial comparison between the Product identifier and the ID. Subsequently, for each match, a matching percentage is calculated based on the descriptions. The matches are then grouped by Product identifier and arranged in order of similarity of IDs and percentage of description matching.
+The matching procedure begins with an initial comparison between the Product identifier and the ID. Subsequently, for each match, a matching percentage is calculated based on the descriptions. The matches are then grouped by Product identifier and arranged in order of similarity of IDs and percentage of description matching.
 This procedure is executed twice: once for Mfr Part Number and a second time for the Supplier Mat. No.
 
 ### Requirements
