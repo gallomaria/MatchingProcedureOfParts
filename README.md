@@ -30,3 +30,5 @@ This is done through an API connection to DeepL, after a preparation of the data
 
 ### Requirements
 - Python 3+
+- [requests](https://pypi.org/project/requests/)
+- 
