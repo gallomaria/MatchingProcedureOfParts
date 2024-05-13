@@ -10,25 +10,27 @@ The project aims to find out whether in a given list of spare parts, those parts
     - [Requirements](#Requirements)
 
 ## The Data
-A complete list of all pieces registered in the system is given. The following details are provided for each part:
+A comprehensive list of all spare parts registered in the system is provided, containing the following details for each part:
 - Two different IDs: _Mfr Part Number_ and _Supplier Mat. No_
 - English description of the part
 - Material Code
 - Base Unit
 
-The list of spare parts is recived from an entity. The list includes:
+The inventory of spare parts is received from an external entity, which includes:
 - Product identifier
 - Description in the local language
 
 ## Implementation
 ### Translation
-When the Description of the parts is not in English a translation procedure is needed:
-This is done through an API connection to DeepL, after a preparation of the data. 
+When the description of the parts is not in English, a translation procedure is required. This is accomplished through an API connection to DeepL, following data preparation, which involves string cleaning.
 
 ### Matching
 
 
 ### Requirements
-- Python 3+
+- Python 3.7+
+- [pandas](https://pandas.pydata.org/docs/)
+- [os](https://docs.python.org/3/library/os.html)
+- [concurrent.futures](https://docs.python.org/3/library/concurrent.futures.html)
 - [requests](https://pypi.org/project/requests/)
-- 
+
