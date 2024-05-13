@@ -8,7 +8,7 @@ The project aims to find out whether in a given list of spare parts, those parts
 - [Sezione 2](#Mapping2)
 
 
-### TheLogic
+### The Logic
     
 ### Mapping1
 
