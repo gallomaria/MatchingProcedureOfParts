@@ -35,6 +35,7 @@ This procedure is executed twice: once for Mfr Part Number and a second time for
 ### Requirements
 - Python 3.8+
 - [pandas](https://pandas.pydata.org/docs/)
+- [numpy](https://github.com/numpy/numpy)
 - [os](https://docs.python.org/3/library/os.html)
 - [concurrent.futures](https://docs.python.org/3/library/concurrent.futures.html)
 - [requests](https://pypi.org/project/requests/)
