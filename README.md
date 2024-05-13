@@ -22,7 +22,8 @@ The inventory of spare parts is received from an external entity, which includes
 
 ## Implementation
 ### Translation
-When the description of the parts is not in English, a translation procedure is required. This is accomplished through an API connection to DeepL, following data preparation, which involves string cleaning.
+When the description of the parts is not in English, a translation procedure is required. This is accomplished through an API connection to DeepL, following data preparation, which involves string cleaning. 
+Script: [Link al file Python](Inventory_Translation.py)
 
 ### Matching
 The matching procedure begins with an initial comparison between the Product identifier and the ID. Subsequently, for each match, a matching percentage is calculated based on the descriptions. The matches are then grouped by Product identifier and arranged in order of similarity of IDs and percentage of description matching.
