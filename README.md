@@ -24,13 +24,13 @@ The inventory of spare parts is received from an external entity, which includes
 ### Translation
 When the description of the parts is not in English, a translation procedure is required. This is accomplished through an API connection to DeepL.
 
-[Link al file Python](Inventory_Translation.py)
+[Python script link](Inventory_Translation.py)
 
 ### Matching
 The matching procedure begins with an initial comparison between the Product identifier and the ID. Subsequently, for each match, a matching percentage is calculated based on the descriptions. The matches are then grouped by product identifier and arranged in order of similarity of IDs and percentage of description matching.
 This procedure is executed twice: once for the _Mfr Part Number_ and a second time for the _Supplier Mat. No_.
 
-[Link al file Python](Matching.py)
+[Python script link](Matching.py)
 
 ### Requirements
 - Python 3.8+
