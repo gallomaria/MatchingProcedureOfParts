@@ -22,7 +22,7 @@ The inventory of spare parts is received from an external entity, which includes
 
 ## Implementation
 ### Translation
-When the description of the parts is not in English, a translation procedure is required. This is accomplished through an API connection to DeepL, following data preparation, which involves string cleaning. 
+When the description of the parts is not in English, a translation procedure is required. This is accomplished through an API connection to DeepL.
 
 [Link al file Python](Inventory_Translation.py)
 
