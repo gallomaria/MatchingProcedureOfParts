@@ -3,15 +3,22 @@
 The project aims to find out whether in a given list of spare parts, those parts are already registered in the system.
 
 ## Table of Contents
-- [The Logic](#TheLogic)
-- [Sezione 1](#Mapping1)
-- [Sezione 2](#Mapping2)
+- [The Data](#The-Data)
+- [Translation](#Translation)
+- [Matching](#Matching)
 
-### The Logic
-A complete list of all pieces registered in the system is provided. The following details are provided for each part:
+### The Data
+A complete list of all pieces registered in the system is given. The following details are provided for each part:
 - Two different IDs: _Mfr Part Number_ and _Supplier Mat. No_
 - English description of the part
+- Material Code
+- Base Unit
+
+The list of spare parts is recived from an entity. The list includes:
+- The product identifier
+- The description in the local language
+
     
-### Mapping1
+### Translation
 
 ### Mapping2
