@@ -14,7 +14,7 @@ A comprehensive list of all spare parts registered in the system is provided, co
 - Two different IDs: _Mfr Part Number_ and _Supplier Mat. No_
 - English description of the part
 - Material Code
-- Base Unit
+- Base Unit of Measure
 
 The inventory of spare parts is received from an external entity, which includes:
 - Product identifier
