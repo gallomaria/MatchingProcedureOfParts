@@ -7,7 +7,7 @@ The project aims to find out whether in a given list of spare parts, those parts
 - [Implementation](#Implementation)
     - [Translation](#Translation)
     - [Matching](#Matching)
-- [Requirements](#Requirements)
+    - [Requirements](#Requirements)
 
 ## The Data
 A complete list of all pieces registered in the system is given. The following details are provided for each part:
@@ -29,4 +29,4 @@ This is done through an API connection to DeepL, after a preparation of the data
 
 
 ### Requirements
-
+- Python 3+
