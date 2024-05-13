@@ -29,9 +29,9 @@ The Matching procedure begins with an initial comparison between the Product ide
 This procedure is executed twice: once for Mfr Part Number and a second time for the Supplier Mat. No.
 
 ### Requirements
-- Python 3.7+
+- Python 3.8+
 - [pandas](https://pandas.pydata.org/docs/)
 - [os](https://docs.python.org/3/library/os.html)
 - [concurrent.futures](https://docs.python.org/3/library/concurrent.futures.html)
 - [requests](https://pypi.org/project/requests/)
-
+- [Levenshtein](https://pypi.org/project/python-Levenshtein/)
