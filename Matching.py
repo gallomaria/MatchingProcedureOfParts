@@ -263,6 +263,6 @@ df_top7_per_ID['Material'] = df_top7_per_ID['Material'].astype(str)
 df_top7_per_ID['Matchingc Percentage'] = df_top7_per_ID['Matchingc Percentage'].round(2)
 
 # Save final file
-df_top7_per_ID.to_csv(os.path.join(folder_path, entity, final_match, ), index = False, decimal=',')
+df_top7_per_ID.to_csv(os.path.join(folder_path, entity, final_match), index = False, decimal=',')
 
 
