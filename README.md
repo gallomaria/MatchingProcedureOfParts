@@ -28,8 +28,8 @@ When the description of the parts is not in English, a translation procedure is 
 [Python script link](Inventory_Translation.py)
 
 ### Matching
-The matching procedure begins with an initial comparison between the Product identifier and the ID. Subsequently, for each match, a matching percentage is calculated based on the descriptions. The matches are then grouped by product identifier and arranged in order of similarity of IDs and percentage of description matching.
-This procedure is executed twice: once for the _Mfr Part Number_ and a second time for the _Supplier Mat. No_.
+The matching procedure begins with an initial comparison between the Product Identifier and the Mfr Part Number. For each match, a matching percentage is calculated based on the material description. The matched are them grouped by Product Identifier and arranged in order of similarity between the Product Identifier and the Mfr Part Number and percentage of description matching. 
+The same procedure is then executed for the Supplier Mat. No. 
 
 [Python script link](Matching.py)
 
