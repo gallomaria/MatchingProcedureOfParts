@@ -17,6 +17,7 @@ A comprehensive list of all spare parts registered in the system is provided, co
 - Base Unit of Measure
 
 The inventory of spare parts is received from an external entity, which includes:
+- ID
 - Product identifier
 - Description in the local language
 
