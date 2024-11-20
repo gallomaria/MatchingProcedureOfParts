@@ -35,8 +35,8 @@ The same procedure is then executed for the Supplier Mat. No.
 
 ### Requirements
 - Python 3.8+
-- [pandas](https://pandas.pydata.org/docs/)
-- [numpy](https://github.com/numpy/numpy)
+- [pandas](https://pandas.pydata.org/docs/) 2.2.2
+- [numpy](https://github.com/numpy/numpy) 1.26.4
 - [os](https://docs.python.org/3/library/os.html)
 - [concurrent.futures](https://docs.python.org/3/library/concurrent.futures.html)
 - [requests](https://pypi.org/project/requests/)
