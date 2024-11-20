@@ -1,6 +1,6 @@
 # Mapping
 
-The project aims to find out whether in a given list of spare parts, those parts are already registered in the system.
+The project aims to find out whether in a given list of spare parts, those parts are already registered in the system, the match is performed based on a transformed identifier and on the description of the part.
 
 ## Table of Contents
 - [The Data](#The-Data)
