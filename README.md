@@ -37,7 +37,5 @@ The same procedure is then executed for the Supplier Mat. No.
 - Python 3.8+
 - [pandas](https://pandas.pydata.org/docs/) 2.2.2
 - [numpy](https://github.com/numpy/numpy) 1.26.4
-- [os](https://docs.python.org/3/library/os.html)
-- [concurrent.futures](https://docs.python.org/3/library/concurrent.futures.html)
-- [requests](https://pypi.org/project/requests/)
-- [Levenshtein](https://pypi.org/project/python-Levenshtein/)
+- [requests](https://pypi.org/project/requests/) 2.31.0
+- [Levenshtein](https://pypi.org/project/python-Levenshtein/) 0.25.0
