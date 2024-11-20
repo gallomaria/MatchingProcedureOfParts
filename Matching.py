@@ -7,7 +7,7 @@ Parameters to Adjust:
 - file_to_match 
 - full_invetory
 
-Usage:
+Usage: 
 1. Set the parameters to adjust according to your needs.
 2. Run the script to match the data.
 """
