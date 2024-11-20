@@ -1,4 +1,4 @@
-# PartsMatchingProcedure
+# PartsMatchingProcedure 
 
 The project aims to find out whether in a given list of spare parts, those parts are already registered in the system, the match is performed based on a transformed identifier and on the description of the part.
 
@@ -33,7 +33,7 @@ The same procedure is then executed for the Supplier Mat. No.
 
 [Python script link](Matching.py)
 
-### Requirements
+### Prerequisites
 - Python 3.8+
 - [pandas](https://pandas.pydata.org/docs/) 2.2.2
 - [numpy](https://github.com/numpy/numpy) 1.26.4
