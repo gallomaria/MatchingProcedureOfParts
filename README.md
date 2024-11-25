@@ -33,7 +33,7 @@ The same procedure is then executed for the Supplier Mat. No.
 
 [Python script link](Matching.py)
 
-### Prerequisites
+### Requirements
 - Python 3.8+
 - [pandas](https://pandas.pydata.org/docs/) 2.2.2
 - [numpy](https://github.com/numpy/numpy) 1.26.4
